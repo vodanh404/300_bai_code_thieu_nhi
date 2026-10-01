@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "D:\\Apps\\msys2\\ucrt64\\bin\\g++.exe -std=c++20 \"$fullFileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { & \".\\$fileNameWithoutExt.exe\" }"
+    }
+}
