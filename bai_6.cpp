@@ -1,14 +1,14 @@
 #include <iostream>
 int main() {
     int a,b,c;
-    std::cout << "Nhap a, b, c: ";
-    std::cin >> a >> b >> c;
+    printf("Nhap a, b, c: ");
+    scanf("%d%d%d", &a, &b, &c);
     // Dãy theo thứ tự tăng dần
-    if (a<b && b<c) {std::cout << "\nDay theo thu tu tang dan la: " << a << " " << b << " " << c;}
-    else if (a<c && c<b) {std::cout << "\nDay theo thu tu tang dan la: " << a << " " << c << " " << b;}
-    else if (b<a && a<c) {std::cout << "\nDay theo thu tu tang dan la: " << b << " " << a << " " << c;}
-    else if (b<c && c<a) {std::cout << "\nDay theo thu tu tang dan la: " << b << " " << c << " " << a;}
-    else if (c<a && a<b) {std::cout << "\nDay theo thu tu tang dan la: " << c << " " << a << " " << b;}
-    else {std::cout << "\nDay theo thu tu tang dan la: " << c << " " << b << " " << a;}
+    if (a<b && b<c) {printf("\nDay theo thu tu tang dan la: %d %d %d", a, b, c);}
+    else if (a<c && c<b) {printf("\nDay theo thu tu tang dan la: %d %d %d", a, c, b);}
+    else if (b<a && a<c) {printf("\nDay theo thu tu tang dan la: %d %d %d", b, a, c);}
+    else if (b<c && c<a) {printf("\nDay theo thu tu tang dan la: %d %d %d", b, c, a);}
+    else if (c<a && a<b) {printf("\nDay theo thu tu tang dan la: %d %d %d", c, a, b);}
+    else {printf("\nDay theo thu tu tang dan la: %d %d %d", c, b, a);}
     return 0;
 }
