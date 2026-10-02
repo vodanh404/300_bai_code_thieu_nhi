@@ -1,0 +1,2 @@
+// tạo 300 file cpp
+// 1..300 | ForEach-Object { New-Item -ItemType File -Name "bai_$($_).cpp" }
